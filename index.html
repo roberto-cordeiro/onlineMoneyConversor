@@ -12,11 +12,11 @@
 <body>
     <div class="container">
         <header>
-            <h1>Huttcor Convert Money</h1>
+            <h1>Convert Money</h1>
         </header>
         <main>
             <label for="">
-                Converter <b>de</b>
+                Convert <b>from</b>
                 <select id="">
                     <option value="">
                         R$ Real brasileiro
@@ -25,7 +25,7 @@
             </label>
 
             <label>
-                Converter <b>para</b>
+                Convert <b>to</b>
                 <select id="currency-select">
                     <option>US$ Dólar americano</option>
                     <option>€ Euro</option>
@@ -33,20 +33,20 @@
                 </select>
             </label>
             <label for="">
-                <b>Valor</b>
+                <b>Value</b>
                 <input id="valor" src="./assets/real.png" placeholder="R$ 10.000,00" type="text">
             </label>
             <button id="convertB"
-            type="button">Converter</button>
+            type="button">Convert</button>
             <section>
                 <div class="currency-container">
-                    <img src="./assets/brasil.png" alt="bandeira-brasil">
+                    <img class="img" src="./assets/brasil.png" alt="bandeira-brasil">
                     <p class="currency-paragraph">Real</p>
                     <p class="currency-value" id="real-value-text">R$ 10.000,00</p>
                 </div>
                 <img class="arrow-down" src="./assets/Vector35x50.png" alt="fecha-para-baixo">
                 <div class="currency-container">
-                    <img src="./assets/eua.png" id="currency-img" alt="bandeira-país-conversão">
+                    <img class="img" src="./assets/eua.png" id="currency-img" alt="bandeira-país-conversão">
                     <p class="currency-paragraph" id="currency-name">Dólar americano</p>
                     <p class="currency-value" id="currency-value-text"></p>
                 </div>

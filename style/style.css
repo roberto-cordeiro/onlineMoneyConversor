@@ -12,19 +12,19 @@
 
 body {
     height: 100vh;
-    background-image: url(../img/img.jpg); 
+    background-image: url(../img/img.jpg);
     background-color: #b9b9b9;
     display: flex;
     justify-content: center;
     align-items: stretch;
-    
+
 }
 
 .container {
     width: 375px;
-    background-color:  #f4f4f433;
+    background-color: #f4f4f433;
     box-shadow: 1px 10px 20px rgba(0, 0, 0, 0.15);
-  
+
 }
 
 header {
@@ -44,7 +44,6 @@ header h1 {
 
 main {
     padding: 24px;
-
 }
 
 label {
@@ -112,8 +111,8 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: px;
-   
+
+
 }
 
 .currency-paragraph {
@@ -140,4 +139,714 @@ section {
     margin: 2px 0;
     height: 35px;
     width: 25px;
+}
+
+/**************   MEDIA QUERY's   **************/
+
+@media screen and (max-width:280px) {
+    body {
+        width: 100vw;
+    }
+
+    .container {
+        width: 100vw;
+    }
+
+    header {
+        background-color: #000000d5;
+        height: 100px;
+    }
+
+    header h1 {
+        font-size: 45px;
+        font-weight: 400;
+        letter-spacing: 4px;
+    }
+
+    label {
+        font-size: 15px;
+    }
+
+    select {
+        width: 100%;
+        height: 45px;
+        margin-top: 8px;
+        margin-bottom: 18px;
+        color: #555555;
+        font-size: 21px;
+    }
+
+    input {
+        width: 100%;
+        height: 45px;
+        font-size: 21px;
+        margin-top: 8px;
+        padding-left: 16px;
+    }
+
+    button {
+        border-radius: 5px;
+        height: 70px;
+        margin-top: 14px;
+        margin-bottom: 25px;
+        font-weight: 900;
+        font-size: 30px;
+        letter-spacing: 2.5px;
+    }
+
+    section {
+        height: 40vh;
+    }
+    .currency-paragraph {
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+
+    .currency-container {
+        padding: 5px;
+        gap: 3px;
+    }
+
+    .currency-value {
+        font-weight: 700;
+        font-size: 30px;
+        color: #088a0e;
+    }
+
+    .arrow-down {
+        margin: 10px 0;
+        height: 70px;
+        width: 45px;
+    }
+}
+
+/*       extra-small 281px - 320px      */
+@media screen and (min-width:281px) and (max-width:320px) {
+    body {
+        width: 100vw;
+    }
+
+    .container {
+        width: 100vw;
+    }
+
+    header {
+        background-color: #000000d5;
+        height: 80px;
+    }
+
+    header h1 {
+        font-size: 33px;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    select {
+        height: 33px;
+        margin-top: 4px;
+        margin-bottom: 8px;
+        font-size: 15px;
+    }
+
+    input {
+        height: 33px;
+        font-size: 15px;
+        margin-top: 4px;
+    }
+
+    button {
+        margin: 15px 0;
+        border-radius: 5px;
+        height: 63px;
+        font-weight: 900;
+        font-size: 23px;
+        letter-spacing: 4px;
+    }
+
+    section {
+        height: 40vh;
+    }
+
+    .currency-paragraph {
+        font-size: 14px;
+        margin-bottom: 1px;
+    }
+
+    .currency-container {
+        padding: 6px;
+        gap: 5px;
+    }
+
+    .currency-value {
+        font-weight: 900;
+        font-size: 25px;
+    }
+
+    .arrow-down {
+        margin: 10px 0;
+        height: 29px;
+        width: 23px;
+    }
+}
+
+/*    Specific for iPhone 4 - width 320px - height 480px   */
+@media screen and (width:320px) and (height:480px) {
+    body {
+        width: 100vw;
+    }
+
+    .container {
+        width: 100vw;
+    }
+
+    header {
+        display: flex;
+        background-color: #000000d5;
+        height: 40px;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    label {
+        font-size: 13px;
+    }
+
+    select {
+        height: 28px;
+        margin-top: 4px;
+        margin-bottom: 6px;
+        font-size: 14px;
+    }
+
+    input {
+        height: 28px;
+        font-size: 14px;
+        margin-top: 2px;
+    }
+    button {
+        border-radius: 5px;
+        height: 43px;
+        font-weight: 900;
+        font-size: 18px;
+        letter-spacing: 2px;
+        margin: 10px 0;
+    }
+
+    section {
+        height: 38vh;
+ 
+    }
+    .img{
+        width: 28px;
+    }
+
+    .currency-paragraph {
+        font-size: 12px;
+        margin-bottom: 1px;
+        
+    }
+
+    .currency-container {
+        padding: 3px;
+        gap: 4px;
+    }
+
+    .currency-value {
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+    .arrow-down {
+        margin: 4px 0;
+        height: 19px;
+        width: 13px;
+    }
+}
+
+/*     width 321px - width 360px   */
+@media screen and (min-width:321px) and (max-width:360px) {
+    body {
+        width: 100vw;
+    }
+
+    .container {
+        width: 100vw;
+    }
+
+    header {
+        background-color: #000000d5;
+        height: 80px;
+    }
+
+    header h1 {
+        font-size: 37px;
+    }
+
+    label {
+        font-size: 17px;
+    }
+
+    select {
+        height: 43px;
+        margin-top: 4px;
+        margin-bottom: 8px;
+        font-size: 18px;
+    }
+
+    input {
+        height: 43px;
+        font-size: 18px;
+        margin-top: 4px;
+    }
+
+    button {
+        border-radius: 5px;
+        height: 63px;
+        font-weight: 900;
+        font-size: 25px;
+        letter-spacing: 4px;
+    }
+
+    section {
+        height: 40vh;
+    }
+
+    .currency-paragraph {
+        font-size: 18px;
+        margin-bottom: 1px;
+    }
+
+    .currency-container {
+        padding: 8px;
+        gap: 10px;
+    }
+
+    .currency-value {
+        font-weight: 900;
+        font-size: 28px;
+    }
+
+    .arrow-down {
+        margin: 10px 0;
+        height: 29px;
+        width: 23px;
+    }
+}
+/* Specific for Motorola G4 */
+@media screen and (width:360px) and (height:640px) {
+    body {
+        width: 100vw;
+    }
+
+    .container {
+        width: 100vw;
+    }
+
+    header {
+        background-color: #000000d5;
+        height: 60px;
+    }
+
+    header h1 {
+        font-size: 27px;
+    }
+
+    label {
+        font-size: 17px;
+    }
+
+    select {
+        height: 43px;
+        margin-top: 4px;
+        margin-bottom: 8px;
+        font-size: 18px;
+    }
+
+    input {
+        height: 43px;
+        font-size: 18px;
+        margin-top: 4px;
+    }
+
+    button {
+        border-radius: 5px;
+        height: 53px;
+        font-weight: 900;
+        font-size: 22px;
+        letter-spacing: 4px;
+    }
+
+    section {
+        height: 36vh;
+    }
+
+    .currency-paragraph {
+        font-size: 15px;
+        margin-bottom: 1px;
+    }
+
+    .currency-container {
+        padding: 3px;
+        gap: 3px;
+    }
+
+    .currency-value {
+        font-weight: 900;
+        font-size: 18px;
+    }
+
+    .arrow-down {
+        margin: 6px 0;
+        height: 29px;
+        width: 23px;
+    }
+}
+
+/*     width 361px - width 375px   */
+@media screen and (min-width:361px) and (max-width:375px) {
+    body {
+        width: 100vw;
+    }
+
+    .container {
+        width: 100vw;
+    }
+
+    header {
+        background-color: #000000d5;
+        height: 80px;
+    }
+
+    header h1 {
+        font-size: 37px;
+    }
+
+    label {
+        font-size: 17px;
+    }
+
+    select {
+        height: 43px;
+        margin-top: 4px;
+        margin-bottom: 8px;
+        font-size: 18px;
+    }
+
+    input {
+        height: 43px;
+        font-size: 18px;
+        margin-top: 4px;
+    }
+
+    button {
+        border-radius: 5px;
+        height: 63px;
+        font-weight: 900;
+        font-size: 25px;
+        letter-spacing: 4px;
+    }
+
+    section {
+        height: 33vh;
+    }
+
+    .currency-paragraph {
+        font-size: 16px;
+        margin-bottom: 1px;
+    }
+
+    .currency-container {
+        padding: 3px;
+        gap: 3px;
+    }
+
+    .currency-value {
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .arrow-down {
+        margin: 3px 0;
+        height: 19px;
+        width: 13px;
+    }
+}
+/*     Specific config for Iphone X   */
+@media screen and (width:375px) and (height:812px) {
+    body {
+        width: 100vw;
+    }
+
+    .container {
+        width: 100vw;
+    }
+
+    header {
+        background-color: #000000d5;
+        height: 80px;
+    }
+
+    header h1 {
+        font-size: 37px;
+    }
+
+    label {
+        font-size: 17px;
+    }
+
+    select {
+        height: 43px;
+        margin-top: 4px;
+        margin-bottom: 8px;
+        font-size: 18px;
+    }
+
+    input {
+        height: 43px;
+        font-size: 18px;
+        margin-top: 4px;
+    }
+
+    button {
+        border-radius: 5px;
+        height: 63px;
+        font-weight: 900;
+        font-size: 25px;
+        letter-spacing: 4px;
+    }
+
+    section {
+        height: 44vh;
+    }
+
+    .currency-paragraph {
+        font-size: 22px;
+        margin-bottom: 8px;
+    }
+
+    .currency-container {
+        padding: 15px;
+        gap: 10px;
+    }
+
+    .currency-value {
+        font-weight: 900;
+        font-size: 30px;
+    }
+
+    .arrow-down {
+        margin: 10px 0;
+        height: 38px;
+        width: 33px;
+    }
+}
+
+/*     width 376px - width 393px   */
+@media screen and (min-width:376px) and (max-width:393px) {
+    body {
+        width: 100vw;
+    }
+
+    .container {
+        width: 100vw;
+    }
+
+    header {
+        background-color: #000000d5;
+        height: 100px;
+    }
+
+    header h1 {
+        font-size: 45px;
+    }
+
+    label {
+        font-size: 17px;
+    }
+
+    select {
+        height: 43px;
+        margin-top: 4px;
+        margin-bottom: 14px;
+        font-size: 18px;
+    }
+
+    input {
+        height: 43px;
+        font-size: 18px;
+        margin-top: 4px;
+    }
+
+    button {
+        border-radius: 5px;
+        height: 70px;
+        font-weight: 700;
+        font-size: 33px;
+        letter-spacing: 5px;
+    }
+
+    section {
+        height: 39vh;
+    }
+
+    .currency-paragraph {
+        font-size: 19px;
+        margin-bottom: 8px;
+    }
+
+    .currency-container {
+        padding: 4px;
+        gap: 8px;
+    }
+
+    .currency-value {
+        font-weight: 900;
+        font-size: 30px;
+    }
+
+    .arrow-down {
+        margin: 12px 0;
+        height: 49px;
+        width: 43px;
+    }
+}
+
+/*     width 394px - width 414px   */
+@media screen and (min-width:394px) and (max-width:414px) {
+    body {
+        width: 100vw;
+    }
+
+    .container {
+        width: 100vw;
+    }
+
+    header {
+        background-color: #000000d5;
+        height: 100px;
+    }
+
+    header h1 {
+        font-size: 45px;
+        font-weight: 400;
+        letter-spacing: 4px;
+    }
+
+    label {
+        font-size: 20px;
+    }
+
+    select {
+        width: 100%;
+        height: 55px;
+        margin-top: 8px;
+        margin-bottom: 18px;
+        color: #555555;
+        font-size: 21px;
+    }
+
+    input {
+        width: 100%;
+        height: 55px;
+        font-size: 21px;
+        margin-top: 8px;
+        padding-left: 16px;
+    }
+
+    button {
+        border-radius: 5px;
+        height: 70px;
+        margin-top: 14px;
+        margin-bottom: 25px;
+        font-weight: 900;
+        font-size: 30px;
+        letter-spacing: 2.5px;
+    }
+
+    section {
+        height: 40vh;
+    }
+
+    .currency-paragraph {
+        font-size: 21px;
+        margin-bottom: 5px;
+    }
+
+    .currency-container {
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .currency-value {
+        font-weight: 900;
+        font-size: 30px;
+        color: #088a0e;
+    }
+
+    .arrow-down {
+        margin: 10px 0;
+        height: 70px;
+        width: 45px;
+    }
+
+}
+
+/*     Specific for Iphone 6/7/8 Plus   */
+@media screen and (width:414px) and (height:736px) {
+    header h1 {
+        font-size: 45px;
+    }
+
+    label {
+        font-size: 17px;
+    }
+
+    select {
+        height: 43px;
+        margin-top: 4px;
+        margin-bottom: 14px;
+        font-size: 18px;
+    }
+
+    input {
+        height: 43px;
+        font-size: 18px;
+        margin-top: 4px;
+    }
+
+    button {
+        height: 60px;
+        font-weight: 700;
+        font-size: 29px;
+        letter-spacing: 5px;
+    }
+
+    section {
+        height: 37vh;
+    }
+
+    .currency-paragraph {
+        font-size: 17px;
+        margin-bottom: 3px;
+    }
+
+    .currency-container {
+        padding: 5px;
+        gap: 5px;
+    }
+
+    .currency-value {
+        font-weight: 700;
+        font-size: 22px;
+    }
+
+    .arrow-down {
+        margin: 4px 0;
+        height: 49px;
+        width: 43px;
+    }
 }
