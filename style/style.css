@@ -505,6 +505,75 @@ section {
         width: 23px;
     }
 }
+/* Specific for Motorola Galaxy a01 */
+@media screen and (width:360px) and (height:740px) {
+    body {
+        width: 100vw;
+    }
+
+    .container {
+        width: 100vw;
+    }
+
+    header {
+        background-color: #000000d5;
+        height: 60px;
+    }
+
+    header h1 {
+        font-size: 27px;
+    }
+
+    label {
+        font-size: 17px;
+    }
+
+    select {
+        height: 43px;
+        margin-top: 4px;
+        margin-bottom: 8px;
+        font-size: 18px;
+    }
+
+    input {
+        height: 43px;
+        font-size: 18px;
+        margin-top: 4px;
+    }
+
+    button {
+        border-radius: 5px;
+        height: 53px;
+        font-weight: 900;
+        font-size: 22px;
+        letter-spacing: 4px;
+    }
+
+    section {
+        height: 36vh;
+    }
+
+    .currency-paragraph {
+        font-size: 15px;
+        margin-bottom: 1px;
+    }
+
+    .currency-container {
+        padding: 3px;
+        gap: 3px;
+    }
+
+    .currency-value {
+        font-weight: 900;
+        font-size: 19px;
+    }
+
+    .arrow-down {
+        margin: 6px 0;
+        height: 29px;
+        width: 23px;
+    }
+}
 
 /*     width 361px - width 375px   */
 @media screen and (min-width:361px) and (max-width:375px) {
